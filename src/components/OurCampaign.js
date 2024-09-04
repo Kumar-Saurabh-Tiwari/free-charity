@@ -37,9 +37,9 @@ const OurCampaign = () => {
       <h3 className="section-subtitle">Our Campaign</h3>
       <h1 className="section-title">Giving Help To Those Who Need It</h1>
       </div>
-      <div className="campaign-cards">
+      <div className="campaign-cards-tab">
         {campaigns.map((campaign, index) => (
-          <div key={index} className="campaign-card">
+          <div key={index} className="campaign-card-tab">
             <img src={campaign.image} alt={campaign.title} className="campaign-image" />
             <h5 className="campaign-title">{campaign.title}</h5>
             <div className="campaign-details">
@@ -53,7 +53,7 @@ const OurCampaign = () => {
               ></div>
             </div>
             <div className="campaign-buttons">
-              <button className="donate-button">Donate now</button>
+              <button className="donate-button-tab">Donate now</button>
               <button className="detail-button">See detail</button>
             </div>
           </div>

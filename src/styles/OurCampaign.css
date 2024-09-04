@@ -3,7 +3,7 @@
 
 
 .our-campaign-container {
-    padding: 150px;
+    padding: 80px 150px;
     
   }
 
@@ -25,13 +25,13 @@
     color: #1D1D1D;
   }
   
-  .campaign-cards {
+  .campaign-cards-tab {
     display: flex;
     justify-content: space-around;
     gap: 20px;
   }
   
-  .campaign-card {
+  .campaign-card-tab {
     background: #fff;
     border-radius: 12px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -83,13 +83,14 @@
   }
   
   .campaign-buttons {
-    margin-left: -40px;
+  
     display: flex;
     justify-content: space-between;
   }
   
-  .donate-button,
+  .donate-button-tab,
   .detail-button {
+    width: 200px;
     background-color: #30d5c8;
     border: none;
     color: white;
@@ -106,19 +107,42 @@
     /* border: 2px solid #30d5c8; */
   }
   
-  .donate-button:hover,
+  .donate-button-tab:hover,
   .detail-button:hover {
     opacity: 0.8;
   }
   
   @media (max-width: 768px) {
-    .campaign-cards {
+    .our-campaign-container {
+      padding: 10px 50px;
+      
+    }
+    .campaign-cards-tab {
       flex-direction: column;
       align-items: center;
     }
   
-    .campaign-card {
+    .campaign-card-tab {
       max-width: 100%;
     }
+
+    .main-titles{
+      margin-left: 0px;
+      width: 100%;
+    }
+    
+    .section-subtitle {
+      color: #a269ff;
+      font-size: 15px;
+      margin-bottom: 10px;
+    }
+    
+    .section-title {
+      font-size: 30px;
+      font-weight: bold;
+      margin-bottom: 30px;
+      color: #1D1D1D;
+    }
+    
   }
   

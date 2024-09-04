@@ -5,7 +5,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 150px;
+    padding: 40px 150px;
     background-color: #fff;
   }
   
@@ -103,3 +103,22 @@
     background-color: #2BB0A6;
   }
   
+  @media (max-width: 768px) {
+    .who-we-are-container {
+      margin-top: 1000px;
+      display: block;
+      align-items: center;
+      justify-content: center;
+      padding: 20px 50px;
+    }
+
+    .text-section {
+      margin-top: 50px;
+      max-width: 100%;
+      padding-left: 0px;
+    }
+    .image-section {
+      max-width: 90%;
+    }
+    
+  }

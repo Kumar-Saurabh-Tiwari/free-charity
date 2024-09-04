@@ -10,8 +10,10 @@
     url('../assets/background-map.svg') no-repeat center center;
   background-size: cover;
   color: #333;
-  position: relative; /* Establish a stacking context for child elements */
+  position: relative;
+  z-index: 0; /* Ensure it's below other elements */
 }
+
 
 
 .header {
@@ -137,9 +139,9 @@
 .donate-button {
   margin-left: 50px;
   width: 200px;
-  background-color: transparent;
-  border: 2px solid #9F5FFE;
-  color: #9F5FFE;
+  background-color: transparent !important;
+  border: 2px solid #9F5FFE !important;
+  color: #9F5FFE !important;
   font-weight: bold;
   padding: 15px 30px;
   border-radius: 5px;
@@ -220,8 +222,8 @@
 }
 /* Campaign Card */
 .campaign-card {
-  width: 600px; /* Set the desired width */
-  max-width: 100%; /* Ensure it doesn’t exceed the section width */
+  padding: 50px;
+  width: 500px; /* Set the desired width */
   position: relative;
   z-index: 3; /* Ensure the card is above the design border */
   background-color: #fff;
@@ -306,4 +308,83 @@
   border: none;
   border-radius: 5px;
   cursor: pointer;
+}
+.google-pay-button img{
+  width: 160px;
+}
+
+.apple-pay-button img{
+  width: 160px;
+}
+@media (max-width: 768px) {
+  .header,
+  .header2 {
+    padding: 0 10px;
+  }
+
+  .header-contact{
+    display: flex;
+  }
+
+  .logo-text {
+    margin-left: 10px;
+    font-size: 14.8px;
+    font-weight: bold;
+    color: #1D1D1D;
+  }
+
+  .main-nav a {
+    font-size: 10px;
+  }
+  .dropdown-menu li a{
+    font-size: 10px;
+  }
+
+  .donate-button {
+    margin-top: -10px !important;
+    width: 120px !important;
+    background-color: transparent !important;
+    border: 2px solid #9F5FFE !important;
+    color: #9F5FFE !important;
+    font-weight: bold;
+    padding: 5px 10px !important;
+    font-size: 10px !important;
+    border-radius: 5px !important;
+    cursor: pointer;
+  }
+  
+  .primary-section {
+    display: block;
+    padding:60px;
+    align-items: center;
+    /* background-color: #f5f5f5; */
+  }
+  .campaign-section {
+    right: 0;
+    left: -70px;
+    position:absolute;
+  }
+  /* Campaign Card */
+  .campaign-card {
+    width:100%;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header2 {
+    padding: 0 50px;
+  }
+  /* Design Border */
+  .design-border {
+    display: none;
+  }
+
+  .google-pay-button img{
+    width: 100px;
+  }
+
+  .apple-pay-button img{
+    width: 100px;
+  }
+  
 }
