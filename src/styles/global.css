@@ -1,0 +1,37 @@
+/* Import Manrope font */
+body {
+    font-family: 'Manrope', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Headings */
+  h1 {
+    font-size: 48px;
+    font-weight: bold;
+  }
+  
+  h2 {
+    font-size: 40px;
+    font-weight: bold;
+  }
+  
+  /* Body Text */
+  .body-large {
+    font-size: 18px;
+    font-weight: normal;
+  }
+  
+  .body-medium {
+    font-size: 16px;
+    font-weight: normal;
+  }
+  
+  /* Buttons */
+  button {
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Manrope', sans-serif;
+  }
+  

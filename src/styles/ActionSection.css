@@ -1,0 +1,90 @@
+.action-section {
+    margin-top: 150px;
+    padding: 50px 20px;
+  }
+  
+  .action-content {
+    margin-top: -180px;
+    margin-left: 230px;
+    position: absolute;
+    background-color: #FAFAFA;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 60px;
+    width: 1100px;
+    text-align: left;
+  }
+  
+  .action-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .action-subtitle {
+    color: #8b53f6;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .action-title {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 46px;
+    color: #1D1D1D;
+    margin-bottom: 20px;
+    max-width: 600px;
+  }
+  
+  .donate-button {
+    background-color: #24d0d0;
+    color: #ffffff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .stats-section {
+    align-items: center;
+    height: 400px;
+    background-color: #24d0d0;
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .stat-item {
+    text-align: center;
+    color: #ffffff;
+    margin: 20px 0;
+  }
+  
+  .stat-value {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-decoration: underline;
+  }
+  
+  .stat-label {
+    font-size: 18px;
+    color: #e2e8f0;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+  }
+  
+  @media (max-width: 768px) {
+    .action-content {
+      text-align: center;
+    }
+  
+    .donate-button {
+      margin-top: 20px;
+      width: 100%;
+    }
+  }
+  

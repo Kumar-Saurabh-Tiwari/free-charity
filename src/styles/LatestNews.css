@@ -1,0 +1,130 @@
+@import '../styles/global.css';
+/* Import the global styles */
+
+.latest-news {
+  padding: 20px 200px;
+  font-family: Arial, sans-serif;
+}
+
+.latest-news-header {
+  font-weight: bold;
+  color: #8b53f6;
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+.latest-articles-header {
+  color: #1D1D1D;
+  font-weight: bold;
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.articles {
+  display: flex;
+  justify-content: space-between;
+}
+
+.article {
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 30%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.article-image {
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.article-tag {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: #24d0d0;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.article-info {
+  padding: 15px;
+}
+
+.article-title {
+  font-size: 18px;
+  margin: 0 0 10px 0;
+}
+
+.article-date {
+  color: #999;
+  font-size: 14px;
+}
+
+.newsletter {
+  display: flex;
+  margin-top: 40px;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f7f7f7;
+  padding: 5px;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+.newsletter-body {
+  font-weight: 400;
+  font-size: 16px;
+  color: #a6a5a5;
+}
+
+.newsletter-header {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.newsletter-subscribe {
+  margin-top: 15px;
+}
+
+.newsletter-subscribe input {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 300px;
+  margin-right: 10px;
+}
+
+.newsletter-subscribe button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #24d0d0;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.newsletter-subscribe button:hover {
+  background-color: #1b9a9a;
+}
+
+.progress-bar-article {
+  height: 3px;
+  background: 
+  #DEDDCD;
+  border-radius: 3px;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.progress-article {
+  height: 100%;
+  background-color: #333333;
+  border-radius: 3px;
+}
