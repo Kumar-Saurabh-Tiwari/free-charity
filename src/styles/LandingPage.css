@@ -316,14 +316,42 @@
 .apple-pay-button img{
   width: 160px;
 }
+.header-contact img{
+  margin-right: 5px;
+  width: 15px;
+}
 @media (max-width: 768px) {
+  .landing-page{
+  align-items: center;
+  width: 100%;
+  }
   .header,
   .header2 {
     padding: 0 10px;
   }
+  .header-bottom{
+    width: 100%;
+  }
 
+  .header-bottom2{
+    margin-top: -30px;
+    margin-bottom: 50px;
+    width: 100%;
+  }
   .header-contact{
     display: flex;
+  }
+  .header-contact img{
+    margin-right: 5px;
+    width: 12px;
+  }
+  .header-contact span{
+    font-size: 10px;
+  }
+
+  .nav img{
+    height: 12px;
+    width: 10px;
   }
 
   .logo-text {
@@ -354,14 +382,16 @@
   }
   
   .primary-section {
+    width: 90%;
     display: block;
-    padding:60px;
+    padding: 60px 20px;
     align-items: center;
     /* background-color: #f5f5f5; */
   }
   .campaign-section {
-    right: 0;
-    left: -70px;
+    width: 300px;
+    right: 0px;
+    left: -60px;
     position:absolute;
   }
   /* Campaign Card */
@@ -371,20 +401,45 @@
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   }
   
-  .header2 {
-    padding: 0 50px;
-  }
   /* Design Border */
   .design-border {
     display: none;
   }
 
   .google-pay-button img{
-    width: 100px;
+    width: 120px;
   }
 
   .apple-pay-button img{
-    width: 100px;
+    width: 120px;
+  }
+
+  .get-started-button {
+    padding: 10px 20px;
+  }
+
+  .activity-button {
+    margin-top: -10px;
+    margin-left: 100px;
+  
+  }
+
+  .donate-heart {
+    position: absolute;
+    right: 10px;
+    top:35px;
+  }
+
+  .main-section h1 {
+    font-size: 36px;
+    line-height: 45px;
+  }
+
+  .campaign-card h2 {
+    font-size: 30px;
+  }
+  .campaign-card p {
+    font-size: 14px;
   }
   
 }

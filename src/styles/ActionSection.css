@@ -86,5 +86,50 @@
       margin-top: 20px;
       width: 100%;
     }
+
+    .action-content {
+      margin-top: -200px;
+      margin-left: 0px;
+      position: absolute;
+      background-color: #FAFAFA;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      width: 80%;
+      text-align: center;
+      align-items: center;
+    }
+    
+    .action-text {
+      display: block;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: nowrap;
+    }
+
+    .stat-value {
+      font-size: 38px;
+    }
+
+    .action-title {
+      font-weight: bold;
+      font-size: 20px;
+      line-height: 26px;
+      color: #1D1D1D;
+      margin-bottom: 20px;
+      width: 100%;
+    }
+
+      
+  .stats-section {
+    align-items: center;
+    height: 100%;
+    background-color: #24d0d0;
+    padding: 40px 0;
+    display: block;
+    justify-content: center;
+    flex-wrap: nowrap;
+  }
+    
   }
   

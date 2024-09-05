@@ -23,15 +23,15 @@ const LandingPage = () => {
           <header className="header">
             <div className="header-top">
               <div className="header-contact">
-                <span><img src={PhoneIcon} alt="Phone Icon" width="15" height="12" /> +1-206-156 2849</span>
-                <span><img src={MailIcon} alt="Mail Icon" width="15" height="12" /> info@donaty.com</span>
+                <span><img src={PhoneIcon} alt="Phone Icon" /> +1-206-156 2849</span>
+                <span><img src={MailIcon} alt="Mail Icon"  /> info@donaty.com</span>
               </div>
-              {/* <nav className="nav">
+              <nav className="nav">
                 <a href="#"><img src={TwitterIcon} alt="Twitter Icon" /></a>
                 <a href="#"><img src={InstagramIcon} alt="Instagram Icon" /></a>
                 <a href="#"><img src={FacebookIcon} alt="Facebook Icon" /></a>
                 <a href="#"><img src={YoutubeIcon} alt="Youtube Icon" /></a>
-              </nav> */}
+              </nav>
             </div>
           </header>
 
@@ -41,7 +41,9 @@ const LandingPage = () => {
             <div className="header-bottom">
               <a href="#" className="logo"><img src={DonatyIcon} alt="Donaty Icon" width="24.44" height="32" /> <p className='logo-text'>Donaty</p> </a>
               <button className="donate-button"><span className='button-text'>Donate Now</span> <img src={HeartIcon} alt="Heart Icon" width="12" height="10" /></button>
-              {/* <div className="header-bottom2">
+            </div>
+
+            <div className="header-bottom2">
                 <nav className="main-nav">
                   <div className="dropdown">
                     <a href="#" className="dropdown-toggle">Who we are <span className="dropdown-icon"> <img src={DropDownIcon} alt="Heart Icon" width="15" height="12" /></span></a>
@@ -56,8 +58,7 @@ const LandingPage = () => {
                   <a href="#">Contact Us</a>
                 </nav>
               
-              </div> */}
-            </div>
+              </div>
           </header>
 
           <div className='primary-section'>
@@ -73,7 +74,7 @@ const LandingPage = () => {
               <div className='main-buttons'>
                 <button className="get-started-button">Get Started</button>
 
-                <button className="activity-button"><img src={ActivitiesIcon} alt="Heart Icon" width="70" /></button>
+                <button className="activity-button"><img src={ActivitiesIcon} alt="Heart Icon" width="55" /></button>
               </div>
             </section>
 
@@ -81,7 +82,7 @@ const LandingPage = () => {
                 <div className="design-border"></div>
                 <div className="campaign-card">
                   <div className="campaign-tag">Education</div>
-                  <div className='donate-heart'><img src={DonateIcon} alt="Heart Icon" width="90" height="90" /></div>
+                  <div className='donate-heart'><img src={DonateIcon} alt="Heart Icon" width="70" height="70" /></div>
                   <h2>Help Children Get out of Poverty & have a Future</h2>
                   <p>
                     Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa.

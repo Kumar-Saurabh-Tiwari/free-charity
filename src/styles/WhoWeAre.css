@@ -63,17 +63,18 @@
   
   .description {
     margin: 20px 0;
-    color: #777;
+    color: #6F7775;
     font-size: 16px;
     line-height: 1.5;
   }
   
   .benefits-list {
+    font-weight: 600;
     list-style: none;
     padding: 0;
     margin: 20px 0;
     font-size: 16px;
-    color: #333;
+    color: #1D1D1D;
   }
   
   .benefits-list li {
@@ -105,7 +106,7 @@
   
   @media (max-width: 768px) {
     .who-we-are-container {
-      margin-top: 1000px;
+      margin-top: 600px;
       display: block;
       align-items: center;
       justify-content: center;
@@ -120,5 +121,15 @@
     .image-section {
       max-width: 90%;
     }
-    
+    .title {
+      font-size: 30px;
+    }
+
+    .description {
+      font-size: 14px;
+    }
+
+    .benefits-list {
+      font-size: 12px;
+    }
   }
